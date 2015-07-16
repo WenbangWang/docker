@@ -1,4 +1,4 @@
-# docker
+# jenkins
 To start docker jenkins container
 ```sudo docker run --name jenkins-master -p 8080:8080 -v /home/wangwb/jenkins_home:/var/jenkins_home -u root jenkins```
   ```jenkins-master``` is the name of container
