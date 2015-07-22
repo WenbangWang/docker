@@ -12,4 +12,4 @@ To start docker jenkins container
   
   ```root``` is the root user in container which has access to do the job. 
   
-```docker exec [container id] -it /bin/bash``` goes into container bash
+```docker exec -it [container id] /bin/bash``` goes into container bash
